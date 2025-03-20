@@ -1,4 +1,4 @@
-.contacts {
+.news {
   margin-bottom: 20px;
 }
 .contacts__date {
@@ -8,12 +8,21 @@
   margin-left: 10px;
   margin-bottom: 20px;
 }
-.contacts__images {
+.news__images {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.contacts__image {
-  width: 23%;
-  height: 20%;
+.news__image {
+  width: 33%;
+  height: 33%;
+}
+.news__block {
+  position: relative;
+}
+.news__text {
+  font-size: 30px;
+  position: absolute;
+  left: -220px;
+  bottom: 0;
 }

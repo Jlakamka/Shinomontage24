@@ -22,5 +22,5 @@ export default function ServicesLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <section>{children}</section>;
+  return <>{children}</>;
 }

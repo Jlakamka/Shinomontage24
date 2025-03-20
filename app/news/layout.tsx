@@ -22,5 +22,5 @@ export default function NewsLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <section>{children}</section>;
+  return <>{children}</>;
 }

@@ -6,4 +6,9 @@
   display: flex;
   justify-content: start;
   gap: 20px;
+
+  @media (width < 720px) {
+    margin-left: 0;
+    justify-content: space-around;
+  }
 }

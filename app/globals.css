@@ -43,10 +43,7 @@ h3 {
   font-size: 42px;
   text-align: center;
 }
-.main {
-  display: flex;
-  justify-content: center;
-}
+
 li {
   list-style: none;
 }

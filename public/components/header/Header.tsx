@@ -13,20 +13,16 @@ export default function Header() {
       path: "gallery",
       id: 2,
     },
+
     {
-      heading: "Цены",
-      path: "price",
-      id: 3,
+      heading: "Услуги",
+      path: "/services",
+      id: 5,
     },
     {
       heading: "Новости",
       path: "news",
       id: 4,
-    },
-    {
-      heading: "Услуги",
-      path: "/services",
-      id: 5,
     },
     {
       heading: "Контакты",

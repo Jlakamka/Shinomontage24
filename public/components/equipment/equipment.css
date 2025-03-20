@@ -1,0 +1,22 @@
+.equipment {
+  margin: 20px 0;
+  max-width: 1200px;
+  /* display: grid; */
+  /* flex-direction: row; */
+  /* gap: 24px; */
+}
+
+.equipment__images {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1%;
+  row-gap: 10px;
+}
+.equipment__image {
+  max-width: 32%;
+  height: 33%;
+  border: solid #5c5cff 2px;
+}

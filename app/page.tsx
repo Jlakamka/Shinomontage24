@@ -4,17 +4,19 @@ import Header from "@/public/components/header/Header";
 import About from "@/public/components/about/About";
 import Footer from "@/public/components/footer/Footer";
 import Services from "@/public/components/services/Services";
-import Information from "@/public/components/information/Information";
 import Example from "@/public/components/example/Example";
 import Location from "@/public/components/location/Location";
+import Equipment from "@/public/components/equipment/Equipment";
+import Home from "@/public/components/home/Home";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div>
       <Header />
-      <Information />
+      <Home />
       <Example />
-      <Services />
+      {/* <Services /> */}
+      <Equipment />
       {/* <About /> */}
       <Location />
       <Footer />

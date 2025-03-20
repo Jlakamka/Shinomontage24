@@ -25,7 +25,7 @@ export default function Header() {
     },
     {
       heading: "Услуги",
-      path: "/",
+      path: "/services",
       id: 5,
     },
     {

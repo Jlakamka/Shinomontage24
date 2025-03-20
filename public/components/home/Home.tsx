@@ -4,7 +4,7 @@ import startImg from "../../image/startPage.jpg";
 
 export default function Home() {
   return (
-    <section className="home">
+    <section className="home container">
       <Image className="home__img" src={startImg} alt="startImg" />
     </section>
   );

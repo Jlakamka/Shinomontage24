@@ -8,19 +8,24 @@ import equipmentImg6 from "../../image/equipment/equipmentImg6j.jpg";
 import "./equipment.css";
 export default function Equipment() {
   const exampleDate = [
-    equipmentImg1,
-    equipmentImg2,
-    equipmentImg3,
-    equipmentImg4,
-    equipmentImg5,
-    equipmentImg6,
+    { image: equipmentImg1, id: 1 },
+    { image: equipmentImg2, id: 2 },
+    { image: equipmentImg3, id: 3 },
+    { image: equipmentImg4, id: 4 },
+    { image: equipmentImg5, id: 5 },
+    { image: equipmentImg6, id: 6 },
   ];
   return (
     <section className="container equipment">
       <h3>Наше оборудование</h3>
       <div className="equipment__images">
         {exampleDate.map((el) => (
-          <Image src={el} alt="image" className="equipment__image" />
+          <Image
+            key={el.id}
+            src={el.image}
+            alt="image"
+            className="equipment__image"
+          />
         ))}
       </div>
     </section>

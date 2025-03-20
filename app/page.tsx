@@ -13,13 +13,13 @@ export default function HomePage() {
   return (
     <div>
       <Header />
-      <Home />
-      <Example />
+      {/* <Home /> */}
+      {/* <Example /> */}
       {/* <Services /> */}
-      <Equipment />
+      {/* <Equipment /> */}
       {/* <About /> */}
-      <Location />
-      <Footer />
+      {/* <Location /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

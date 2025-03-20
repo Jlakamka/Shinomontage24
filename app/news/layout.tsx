@@ -17,18 +17,10 @@ export const metadata: Metadata = {
   description: "Шиномонтаж в Ярославле",
 };
 
-export default function RootLayout({
+export default function NewsLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="ru">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+  return <section>{children}</section>;
 }

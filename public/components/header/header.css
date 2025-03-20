@@ -1,0 +1,9 @@
+.header {
+  margin: 20px 0;
+}
+.header__list {
+  margin-left: 20%;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}

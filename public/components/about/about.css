@@ -1,0 +1,40 @@
+.about {
+  margin: 20px auto;
+  width: 1076px;
+}
+
+.about__heading {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 58.8px;
+}
+.about__content {
+  text-align: start;
+  padding-top: 100px;
+}
+.about__section {
+  display: flex;
+  /* justify-content: center; */
+  gap: 84px;
+  padding-bottom: 100px;
+}
+.about__block {
+}
+.about__block-heading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36.6px;
+  width: 470px;
+  margin: 0;
+}
+.about__block-text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22.4px;
+  padding-top: 30px;
+  width: 470px;
+  margin: 0;
+}
+.about__block-img {
+  background-size: cover;
+}

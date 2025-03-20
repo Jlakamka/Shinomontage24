@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ремонт компьютеров",
-  description: "Ремонт компьютеров и ноутбуков в Ярославле",
+  title: "Шиномонтаж",
+  description: "Шиномонтаж в Ярославле",
 };
 
 export default function RootLayout({

@@ -7,27 +7,15 @@ export default function Header() {
       path: "/",
       id: 1,
     },
-
-    {
-      heading: "Галерея",
-      path: "gallery",
-      id: 2,
-    },
-
     {
       heading: "Услуги",
       path: "/services",
-      id: 5,
-    },
-    {
-      heading: "Новости",
-      path: "news",
-      id: 4,
+      id: 2,
     },
     {
       heading: "Контакты",
       path: "contacts",
-      id: 6,
+      id: 3,
     },
   ];
   return (

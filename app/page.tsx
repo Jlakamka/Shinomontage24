@@ -7,6 +7,7 @@ import Location from "@/public/components/location/Location";
 import Equipment from "@/public/components/equipment/Equipment";
 import Home from "@/public/components/home/Home";
 import Works from "@/public/components/works/Works";
+import Reviews from "@/public/components/reviews/Reviews";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Equipment />
       {/* <About /> */}
       <Location />
+      <Reviews />
       <Footer />
     </div>
   );

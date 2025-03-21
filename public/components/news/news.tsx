@@ -34,7 +34,12 @@ export default function News() {
       <div className="news__images">
         {contactsImg.map((el) => (
           <>
-            <Image className="news__image" src={el.img} alt="image" />
+            <Image
+              className="news__image"
+              key={el.id}
+              src={el.img}
+              alt="image"
+            />
             <div className="news__block">
               <p className="news__text">Текст новости</p>
             </div>

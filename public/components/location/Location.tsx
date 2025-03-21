@@ -8,7 +8,29 @@ import Link from "next/link";
 export default function Location() {
   return (
     <section className="location container">
-      <Image className="location__img" src={map} alt="location" />
+      <div className="location__map">
+        <a
+          className="map__link-sh"
+          href="https://yandex.ru/maps/org/shinomontazh/95301190346/?utm_medium=mapframe&utm_source=maps"
+        >
+          Шиномонтаж
+        </a>
+        <a
+          className="map__link-g"
+          href="https://yandex.ru/maps/16/yaroslavl/category/tire_service/184105260/?utm_medium=mapframe&utm_source=maps"
+        >
+          Шиномонтаж в Ярославле
+        </a>
+        <iframe
+          className="map__iframe"
+          src="https://yandex.ru/map-widget/v1/org/shinomontazh/95301190346/reviews/?ll=39.834075%2C57.676909&utm_content=read-more&utm_medium=reviews&utm_source=maps-reviews-widget&z=16"
+          width="560"
+          height="400"
+
+          // frameborder="1"
+          // allowfullscreen="true"
+        ></iframe>
+      </div>
       <div className="location__card">
         <h4 className="location__card-heading">Шиномонтаж 24</h4>
         <div className="card__address">

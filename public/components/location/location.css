@@ -9,7 +9,25 @@
     flex-direction: column;
   }
 }
-
+.location__map {
+  position: relative;
+  overflow: hidden;
+}
+.map__link-sh {
+  color: #eee;
+  font-size: 12px;
+  position: absolute;
+  top: 0px;
+}
+.map__link-g {
+  color: #eee;
+  font-size: 12px;
+  position: absolute;
+  top: 14px;
+}
+.map__iframe {
+  position: relative;
+}
 .location__img {
   width: 70%;
   height: 70%;

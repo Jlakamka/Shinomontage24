@@ -1,5 +1,25 @@
 import "./services.css";
 export default function Services() {
+  const complexServicesDate = {
+    head: {
+      size: "Размер",
+      setting: "Снятие и установка колеса",
+      replacement: "Шиномонтаж",
+      balance: "Баланс",
+      onlyBalance: "Комплекс только с балансировкой",
+      complex: "Полный комплекс",
+    },
+    body: [
+      {
+        size: "R13-14",
+        setting: "150",
+        replacement: "150",
+        balance: "200",
+        onlyBalance: "1400",
+        complex: "2000",
+      },
+    ],
+  };
   const basikServicesDate = {
     head: {
       name: "Виды услуг",
@@ -172,6 +192,31 @@ export default function Services() {
   return (
     <section className="services container">
       {/* <h3>Шиномонтаж легковых автомобилей</h3> */}
+      <h3>Комплекс</h3>
+      <table className="services__table">
+        <thead className="services__table-head">
+          <tr className="services__table-tr">
+            <th>{complexServicesDate.head.size}</th>
+            <th>{complexServicesDate.head.setting}</th>
+            <th>{complexServicesDate.head.replacement}</th>
+            <th>{complexServicesDate.head.balance}</th>
+            <th>{complexServicesDate.head.onlyBalance}</th>
+            <th>{complexServicesDate.head.complex}</th>
+          </tr>
+        </thead>
+        <tbody className="services__table-body">
+          {complexServicesDate.body.map((el) => (
+            <tr className="services__table-tr">
+              <td>{el.size}</td>
+              <td className="services__table-price">{el.setting}</td>
+              <td className="services__table-price">{el.replacement}</td>
+              <td className="services__table-price">{el.balance}</td>
+              <td className="services__table-price">{el.onlyBalance}</td>
+              <td className="services__table-price">{el.complex}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
       <h3>Экспресс ремонт</h3>
       <table className="services__table">
         <thead className="services__table-head">

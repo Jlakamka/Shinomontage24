@@ -18,6 +18,30 @@ export default function Services() {
         onlyBalance: "1400",
         complex: "2000",
       },
+      {
+        size: "R15-16",
+        setting: "200",
+        replacement: "200",
+        balance: "200",
+        onlyBalance: "1600",
+        complex: "2400",
+      },
+      {
+        size: "R17-18",
+        setting: "200",
+        replacement: "200",
+        balance: "250",
+        onlyBalance: "1800",
+        complex: "2800",
+      },
+      {
+        size: "R19-20",
+        setting: "250",
+        replacement: "300",
+        balance: "300",
+        onlyBalance: "2200",
+        complex: "3400",
+      },
     ],
   };
   const basikServicesDate = {
@@ -193,7 +217,7 @@ export default function Services() {
     <section className="services container">
       {/* <h3>Шиномонтаж легковых автомобилей</h3> */}
       <h3>Комплекс</h3>
-      <table className="services__table">
+      <table className="services__table table-big">
         <thead className="services__table-head">
           <tr className="services__table-tr">
             <th>{complexServicesDate.head.size}</th>

@@ -7,21 +7,21 @@ export default function Works() {
     {
       heading: "Шиномонтаж",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti reiciendis tenetur provident doloribus, eum officia officiis ab iure molestias beatae in voluptatem totam dolorum rem aliquid exercitationem cum. Hic, voluptatibus.",
+        "Комплекс работ, связанных с обслуживанием и ремонтом автомобильных шин. Это важная и неотъемлемая часть технического обслуживания любого транспортного средства. От качества и своевременности проведения шиномонтажных работ во многом зависит безопасность, управляемость и ходовые характеристики автомобиля",
       image: image1,
       id: 1,
     },
     {
       heading: "Комплексное обслуживание",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti reiciendis tenetur provident doloribus, eum officia officiis ab iure molestias beatae in voluptatem totam dolorum rem aliquid exercitationem cum. Hic, voluptatibus.",
+        "Комплексный шиномонтаж – это не просто снятие старых шин и установка новых. Это целый набор процедур, направленных на обеспечение безопасности и комфорта ваших поездок.",
       image: image1,
       id: 2,
     },
     {
       heading: "Ремонт",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti reiciendis tenetur provident doloribus, eum officia officiis ab iure molestias beatae in voluptatem totam dolorum rem aliquid exercitationem cum. Hic, voluptatibus.",
+        "Жгут, заплатка, вулканизация. В случае повреждений шин, вулканизация может быть необходима для восстановления их целостности.",
       image: image1,
       id: 3,
     },

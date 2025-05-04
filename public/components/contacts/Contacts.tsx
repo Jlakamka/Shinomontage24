@@ -27,13 +27,19 @@ export default function Contacts() {
   return (
     <section className="contacts">
       <div className="contacts__date">
-        <h3>Контакты</h3>
-        <h4>Номер телефона</h4>
-        <p>+7 (920) 112-97-37</p>
-        <h4>График работы</h4>
-        <p>Круглосуточно</p>
-        <h4>Адрес</h4>
-        <p>Тутаевское ш., 16А, Ярославль</p>
+        <h3 className="contacts__date-contacts">Контакты</h3>
+        <div className="contacts__date-number">
+          <h4 className="">Номер телефона</h4>
+          <p className="">+7 (920) 112-97-37</p>
+        </div>
+        <div className="contacts__date-schedule">
+          <h4 className="">График работы</h4>
+          <p className="">Круглосуточно</p>
+        </div>
+        <div className="contacts__date-adress">
+          <h4 className="">Адрес</h4>
+          <p className="">Тутаевское ш., 16А, Ярославль</p>
+        </div>
       </div>
       <div className="contacts__images">
         {contactsImg.map((el) => (

@@ -4,6 +4,7 @@
 .contacts__date {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   gap: 10px;
   margin-left: 10px;
   margin-bottom: 20px;
@@ -16,4 +17,27 @@
 .contacts__image {
   width: 23%;
   height: 20%;
+}
+
+.contacts__date-number {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contacts__date-schedule {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contacts__date-adress {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contacts__date h4 {
+  font-size: 32px;
+}
+
+.contacts__date p {
+  font-size: 24px;
 }

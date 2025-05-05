@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Шиномонтаж",
-  description: "Шиномонтаж",
+  description: "Шиномонтаж в Ярославле",
 };
 
 export default function RootLayout({

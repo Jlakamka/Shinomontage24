@@ -17,6 +17,9 @@
   justify-content: center;
   gap: 6%;
   padding: 0 10px 100px 10px;
+  @media (width<920px) {
+    gap: 0;
+  }
 }
 .works__block {
 }
@@ -37,6 +40,9 @@
 }
 .works__block-img {
   background-size: cover;
+  @media (width<920px) {
+    display: none;
+  }
 }
 .works__block-img img {
   width: 100%;

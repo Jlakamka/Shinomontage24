@@ -12,10 +12,10 @@
   row-gap: 10px;
 }
 .equipment__image {
-  max-width: 32%;
+  max-width: 47%;
   height: 33%;
   border: solid #5c5cff 2px;
-  @media (width<500px) {
-    max-width: 47%;
+  @media (width>500px) {
+    max-width: 32%;
   }
 }

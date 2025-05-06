@@ -24,7 +24,6 @@ export default function Location() {
         <iframe
           className="map__iframe"
           src="https://yandex.ru/map-widget/v1/org/shinomontazh/95301190346/reviews/?ll=39.834075%2C57.676909&utm_content=read-more&utm_medium=reviews&utm_source=maps-reviews-widget&z=16"
-          width="560"
           height="400"
 
           // frameborder="1"

@@ -16,12 +16,12 @@
   }
 }
 .works__section {
-  display: flex;
-  justify-content: center;
   gap: 0;
   padding: 0 10px 20px;
   @media (width>920px) {
     gap: 6%;
+    display: flex;
+    justify-content: center;
   }
   @media (width>500px) {
     padding: 0 10px 100px 10px;

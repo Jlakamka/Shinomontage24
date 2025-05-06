@@ -15,4 +15,7 @@
   max-width: 32%;
   height: 33%;
   border: solid #5c5cff 2px;
+  @media (width<500px) {
+    max-width: 47%;
+  }
 }

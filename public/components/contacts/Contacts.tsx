@@ -30,7 +30,9 @@ export default function Contacts() {
         <h3 className="contacts__date-contacts">Контакты</h3>
         <div className="contacts__date-number">
           <h4 className="">Номер телефона</h4>
-          <p className="">+7 (920) 112-97-37</p>
+          <p className="">
+            <a href="tel:+79201129737">+7 (920) 112-97-37</a>
+          </p>
         </div>
         <div className="contacts__date-schedule">
           <h4 className="">График работы</h4>

@@ -13,8 +13,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  @media (width<720px) {
-    row-gap: 20px;
+  row-gap: 20px;
+  @media (width>720px) {
+    row-gap: 0;
   }
 }
 .contacts__image {

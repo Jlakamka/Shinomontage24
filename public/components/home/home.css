@@ -4,14 +4,12 @@
   /* height: 100vh; */
 }
 .home__img {
-  @media (width < 870px) {
-    width: 100%;
-  }
-  @media (width < 640px) {
+  width: 115%;
+  height: 100%;
+  @media (width > 500px) {
     width: 600px;
   }
-  @media (width < 500px) {
-    width: 115%;
-    height: 100%;
+  @media (width > 600px) {
+    width: 100%;
   }
 }

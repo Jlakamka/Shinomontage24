@@ -18,35 +18,36 @@
   }
 }
 .contacts__image {
-  width: 23%;
+  width: 47%;
   height: 20%;
-  @media (width<720px) {
-    width: 47%;
+  @media (width>720px) {
+    width: 23%;
   }
 }
 
 .contacts__date-number {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  @media (width < 520px) {
-    display: inline;
+  display: inline;
+  @media (width > 520px) {
+    display: flex;
+    align-items: center;
+    gap: 20px;
   }
 }
 .contacts__date-schedule {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  @media (width < 520px) {
-    display: inline;
+  display: inline;
+  @media (width > 520px) {
+    display: flex;
+    align-items: center;
+    gap: 20px;
   }
 }
 .contacts__date-adress {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  @media (width < 520px) {
-    display: inline;
+  display: inline;
+
+  @media (width > 520px) {
+    display: flex;
+    align-items: center;
+    gap: 20px;
   }
 }
 .contacts__date h4 {

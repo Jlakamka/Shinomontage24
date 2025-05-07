@@ -5,6 +5,7 @@ import place4 from "../../image/place/place4.webp";
 
 import place5 from "../../image/place/place5.webp";
 import Image from "next/image";
+import vkImage from "../../image/social/vk_group.png";
 export default function Contacts() {
   const contactsImg = [
     {
@@ -42,12 +43,20 @@ export default function Contacts() {
           <h4 className="">Адрес</h4>
           <p className="">Тутаевское ш., 16А, Ярославль</p>
         </div>
+        <div className="contacts__date-social">
+          <h4 className="">Социальные сети</h4>
+          <a className="contacts__vk" href="https://vk.com/parigamontazj">
+            <Image src={vkImage} alt="vk" className="contacts__vk-img" />
+          </a>
+        </div>
       </div>
-      <div className="contacts__images">
+      <ul className="contacts__images">
         {contactsImg.map((el) => (
-          <Image className="contacts__image" src={el.img} alt="image" />
+          <li key={el.id} className="contacts__list">
+            <Image className="contacts__image" src={el.img} alt="image" />
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }

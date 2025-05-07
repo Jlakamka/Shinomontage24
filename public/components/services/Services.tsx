@@ -42,6 +42,14 @@ export default function Services() {
         onlyBalance: "2200",
         complex: "3400",
       },
+      {
+        size: "R21-22",
+        setting: "300",
+        replacement: "400",
+        balance: "300",
+        onlyBalance: "2400",
+        complex: "4000",
+      },
     ],
   };
   const basikServicesDate = {
@@ -147,8 +155,12 @@ export default function Services() {
         price: "100",
       },
       {
+        name: "Нестандартные размеры резины (батоны)",
+        price: "100",
+      },
+      {
         name: "Секретка",
-        price: "50",
+        price: "100",
       },
       {
         name: "Пакет под колесо",

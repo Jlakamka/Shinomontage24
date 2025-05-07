@@ -12,8 +12,11 @@
   row-gap: 10px;
 }
 .example__images-list {
-  max-width: 32%;
+  max-width: 47%;
   height: 33%;
+  @media (width>500px) {
+    max-width: 32%;
+  }
 }
 .example__image {
   width: 100%;

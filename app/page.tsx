@@ -16,6 +16,7 @@ export default function HomePage() {
       <Home />
       <Works />
       <Equipment />
+      <Example />
       <Location />
       <Reviews />
     </div>

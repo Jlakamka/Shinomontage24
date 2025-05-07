@@ -11,8 +11,12 @@
   gap: 1%;
   row-gap: 10px;
 }
-.example__image {
+.example__images-list {
   max-width: 32%;
   height: 33%;
+}
+.example__image {
+  width: 100%;
+  height: 100%;
   border: solid #5c5cff 2px;
 }

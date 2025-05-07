@@ -1,7 +1,4 @@
-import styles from "./page.module.css";
 import Header from "@/public/components/header/Header";
-import About from "@/public/components/about/About";
-import Footer from "@/public/components/footer/Footer";
 import Example from "@/public/components/example/Example";
 import Location from "@/public/components/location/Location";
 import Equipment from "@/public/components/equipment/Equipment";
@@ -11,7 +8,7 @@ import Reviews from "@/public/components/reviews/Reviews";
 
 export default function HomePage() {
   return (
-    <div>
+    <>
       <Header />
       <Home />
       <Works />
@@ -19,6 +16,6 @@ export default function HomePage() {
       <Example />
       <Location />
       <Reviews />
-    </div>
+    </>
   );
 }

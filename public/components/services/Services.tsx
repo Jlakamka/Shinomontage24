@@ -6,7 +6,7 @@ export default function Services() {
       setting: "Снятие и установка колеса",
       replacement: "Шиномонтаж",
       balance: "Баланс",
-      onlyBalance: "Комплекс только с балансировкой",
+      onlyBalance: "Комплекс без шиномонтажа",
       complex: "Полный комплекс",
     },
     body: [
@@ -51,7 +51,7 @@ export default function Services() {
     },
     body: [
       {
-        name: "Жгуток (шнурок)",
+        name: "Жгут-шнурок",
         price: "350",
       },
       {
@@ -94,10 +94,6 @@ export default function Services() {
         name: "Камера новая R 16",
         price: "1000",
       },
-      {
-        name: "Пакет новый",
-        price: "25",
-      },
     ],
   };
   const standartServicesDate = {
@@ -107,6 +103,14 @@ export default function Services() {
     },
     body: [
       {
+        name: "Прокатка штампованого диска",
+        price: "500",
+      },
+      {
+        name: "Правка литого диска",
+        price: "от 800",
+      },
+      {
         name: "Вулканизация (1 порез)",
         price: "от 600",
       },
@@ -115,43 +119,11 @@ export default function Services() {
         price: "400",
       },
       {
-        name: "Пластырь армированный холодный 14",
-        price: "500",
-      },
-      {
-        name: "Пластырь армированный холодный 23",
-        price: "600",
-      },
-      {
-        name: "Пластырь армированный холодный 24",
+        name: "Пластырь армированный холодный 14/23/24/33/231",
         price: "800",
       },
       {
-        name: "Пластырь армированный холодный 33",
-        price: "600",
-      },
-      {
-        name: "Пластырь армированный холодный 231",
-        price: "600",
-      },
-      {
-        name: "Пластырь армированный горячий 16",
-        price: "500",
-      },
-      {
-        name: "Пластырь армированный горячий 19",
-        price: "550",
-      },
-      {
-        name: "Пластырь армированный горячий 20",
-        price: "600",
-      },
-      {
-        name: "Пластырь армированный горячий 25",
-        price: "600",
-      },
-      {
-        name: "Пластырь армированный горячий 252",
+        name: "Пластырь армированный горячий",
         price: "800",
       },
       {
@@ -210,12 +182,31 @@ export default function Services() {
         name: "Чистка борта / нанесение герметика",
         price: "50",
       },
+      {
+        name: "Дошиповка (за 1 шип)",
+        price: "20",
+      },
+      {
+        name: "Run Flat",
+        price: "250",
+      },
+      {
+        name: "Монтаж-демонтаж обратного диска",
+        price: "100",
+      },
+      {
+        name: "Ночные",
+        price: "100",
+      },
+      {
+        name: "Пакет новый (4 колеса)",
+        price: "25",
+      },
     ],
   };
 
   return (
     <section className="services container">
-      {/* <h3>Шиномонтаж легковых автомобилей</h3> */}
       <h3>Комплекс</h3>
       <table className="services__table table-big">
         <thead className="services__table-head">

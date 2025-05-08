@@ -12,43 +12,33 @@ export default function Services() {
     body: [
       {
         size: "R13-14",
-        setting: "150",
-        replacement: "150",
-        balance: "200",
-        onlyBalance: "1400",
-        complex: "2000",
+        setting: 200,
+        replacement: 150,
+        balance: 200,
       },
       {
         size: "R15-16",
-        setting: "200",
-        replacement: "200",
-        balance: "200",
-        onlyBalance: "1600",
-        complex: "2400",
+        setting: 200,
+        replacement: 200,
+        balance: 200,
       },
       {
         size: "R17-18",
-        setting: "200",
-        replacement: "200",
-        balance: "250",
-        onlyBalance: "1800",
-        complex: "2800",
+        setting: 250,
+        replacement: 250,
+        balance: 250,
       },
       {
         size: "R19-20",
-        setting: "250",
-        replacement: "300",
-        balance: "300",
-        onlyBalance: "2200",
-        complex: "3400",
+        setting: 250,
+        replacement: 300,
+        balance: 300,
       },
       {
         size: "R21-22",
-        setting: "300",
-        replacement: "400",
-        balance: "300",
-        onlyBalance: "2400",
-        complex: "4000",
+        setting: 300,
+        replacement: 400,
+        balance: 300,
       },
     ],
   };
@@ -163,10 +153,6 @@ export default function Services() {
         price: "100",
       },
       {
-        name: "Пакет под колесо",
-        price: "100",
-      },
-      {
         name: "Индекс C / AT",
         price: "100",
       },
@@ -212,7 +198,7 @@ export default function Services() {
       },
       {
         name: "Пакет новый (4 колеса)",
-        price: "25",
+        price: "100",
       },
     ],
   };
@@ -238,8 +224,12 @@ export default function Services() {
               <td className="services__table-price">{el.setting}</td>
               <td className="services__table-price">{el.replacement}</td>
               <td className="services__table-price">{el.balance}</td>
-              <td className="services__table-price">{el.onlyBalance}</td>
-              <td className="services__table-price">{el.complex}</td>
+              <td className="services__table-price">
+                {(el.setting + el.balance) * 4}
+              </td>
+              <td className="services__table-price">
+                {(el.setting + el.replacement + el.balance) * 4}
+              </td>
             </tr>
           ))}
         </tbody>

@@ -169,10 +169,6 @@ export default function Services() {
         price: "100",
       },
       {
-        name: "Замена вентиля",
-        price: "50",
-      },
-      {
         name: "Мойка колеса от грязи",
         price: "50",
       },
@@ -186,7 +182,7 @@ export default function Services() {
       },
       {
         name: "Run Flat",
-        price: "250",
+        price: "300",
       },
       {
         name: "Монтаж-демонтаж обратного диска",

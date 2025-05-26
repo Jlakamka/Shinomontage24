@@ -1,5 +1,6 @@
 import "./works.css";
 import Image from "next/image";
+import imageRp2 from "../../image/image_block_rp2.jpg";
 import imageRp1 from "../../image/image_block_rp1.jpg";
 import imageRp from "../../image/image_block_rp.jpg";
 import imageFull from "../../image/image_block_full.webp";
@@ -24,7 +25,7 @@ export default function Works() {
       heading: "Ремонт",
       description:
         "В наш список ремонта входит: жгут, заплата, грибок, армированый пластырь, вулканизация, правка литых и прокатка штампованых дисков. Для экстренных ситуациях подойдет жгут. Для более долгосрочного использования шин может подойти заплатка. В случае повреждений шин, вулканизация может быть необходима для восстановления их целостности.",
-      image: imageRp1,
+      image: imageRp2,
       id: 3,
     },
   ];

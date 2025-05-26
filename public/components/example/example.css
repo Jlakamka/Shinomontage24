@@ -19,7 +19,9 @@
   }
 }
 .example__image {
-  width: 400px;
-  height: 600px;
   border: solid #5c5cff 2px;
+  /* @media (width>500px) { */
+  width: 100%;
+  height: 100%;
+  /* } */
 }

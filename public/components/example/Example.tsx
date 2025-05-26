@@ -1,19 +1,25 @@
 import Image from "next/image";
 import exampleImage from "../../image/image_block.webp";
 import exampleImage1 from "../../image/example/exampleImg1.jpg";
-import exampleImage3 from "../../image/example/exampleImg3.webp";
-import exampleImage4 from "../../image/example/exampleImg4.webp";
+import exampleImage3 from "../../image/example/exampleImg3.png";
+import exampleImage4 from "../../image/example/exampleImg4.png";
 import exampleImage5 from "../../image/example/exampleImg5.webp";
+import exampleImage6 from "../../image/example/exampleImg6.jpg";
+import exampleImage7 from "../../image/example/exampleImg7.jpg";
+import exampleImage8 from "../../image/example/exampleImg8.jpg";
+import exampleImage10 from "../../image/example/exampleImg10.jpg";
+import exampleImage11 from "../../image/example/exampleImg11.jpg";
+import exampleImage12 from "../../image/example/exampleImg12.jpg";
 import "./example.css";
 import { TtypesImage } from "@/app/types/TypesImage";
 export default function Example() {
   const exampleDate: TtypesImage[] = [
-    { img: exampleImage3, id: 1 },
-    { img: exampleImage4, id: 2 },
-    { img: exampleImage5, id: 3 },
-    // { img: exampleImage, id: 4 },
-    // { img: exampleImage, id: 5 },
-    // { img: exampleImage, id: 6 },
+    { img: exampleImage7, id: 1 },
+    { img: exampleImage3, id: 2 },
+    { img: exampleImage4, id: 3 },
+    { img: exampleImage6, id: 4 },
+    { img: exampleImage11, id: 5 },
+    { img: exampleImage12, id: 6 },
   ];
   return (
     <section className="container example">

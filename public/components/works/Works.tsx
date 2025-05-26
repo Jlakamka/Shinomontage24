@@ -1,5 +1,6 @@
 import "./works.css";
 import Image from "next/image";
+import imageRp3 from "../../image/image_block_rp3.jpg";
 import imageRp2 from "../../image/image_block_rp2.jpg";
 import imageRp1 from "../../image/image_block_rp1.jpg";
 import imageRp from "../../image/image_block_rp.jpg";
@@ -18,7 +19,7 @@ export default function Works() {
       heading: "Комплексное обслуживание",
       description:
         "Комплексный шиномонтаж – это не просто снятие старых шин и установка новых. Это целый набор процедур, направленных на обеспечение безопасности и комфорта ваших поездок. Комплексный шиномонтаж включает в себя замену колес, балансировку, а также проверку давления и состояния шин",
-      image: imageRp,
+      image: imageRp3,
       id: 2,
     },
     {

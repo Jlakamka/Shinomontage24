@@ -10,6 +10,9 @@ import exampleImage8 from "../../image/example/exampleImg8.jpg";
 import exampleImage10 from "../../image/example/exampleImg10.jpg";
 import exampleImage11 from "../../image/example/exampleImg11.jpg";
 import exampleImage12 from "../../image/example/exampleImg12.jpg";
+import exampleImage13 from "../../image/example/exampleImg13.jpg";
+import exampleImage14 from "../../image/example/exampleImg14.jpg";
+import exampleImage15 from "../../image/example/exampleImg15.jpg";
 import "./example.css";
 import { TtypesImage } from "@/app/types/TypesImage";
 export default function Example() {
@@ -20,6 +23,9 @@ export default function Example() {
     { img: exampleImage6, id: 4 },
     { img: exampleImage11, id: 5 },
     { img: exampleImage12, id: 6 },
+    { img: exampleImage13, id: 7 },
+    { img: exampleImage14, id: 8 },
+    { img: exampleImage15, id: 9 },
   ];
   return (
     <section className="container example">

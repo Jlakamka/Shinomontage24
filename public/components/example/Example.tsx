@@ -18,13 +18,13 @@ import { TtypesImage } from "@/app/types/TypesImage";
 export default function Example() {
   const exampleDate: TtypesImage[] = [
     { img: exampleImage7, id: 1 },
-    { img: exampleImage3, id: 2 },
+    // { img: exampleImage3, id: 2 },
     { img: exampleImage4, id: 3 },
     { img: exampleImage6, id: 4 },
     { img: exampleImage11, id: 5 },
     { img: exampleImage12, id: 6 },
-    { img: exampleImage13, id: 7 },
-    { img: exampleImage14, id: 8 },
+    // { img: exampleImage13, id: 7 },
+    // { img: exampleImage14, id: 8 },
     { img: exampleImage15, id: 9 },
   ];
   return (

@@ -86,11 +86,11 @@ export default function Services() {
       },
       {
         name: "Камера новая R 13-14",
-        price: "800",
+        price: "900",
       },
       {
-        name: "Камера новая R 16",
-        price: "1000",
+        name: "Камера новая R 15-16",
+        price: "1200",
       },
     ],
   };

@@ -18,6 +18,8 @@ export default function Register() {
   // console.log(test);
   const register = (e: FormEvent) => {
     e.preventDefault();
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     e.target.reset();
     fetch("https://shinomontage24backend.onrender.com/record/", {
       method: "POST",

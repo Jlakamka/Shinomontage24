@@ -15,7 +15,7 @@ export default function HomePage() {
       <Works />
       <Equipment />
       <Example />
-      <Register />
+      {/* <Register /> */}
       <Location />
       <Reviews />
     </>

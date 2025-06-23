@@ -13,9 +13,14 @@ export default function Header() {
       id: 2,
     },
     {
-      heading: "Контакты",
-      path: "contacts",
+      heading: "Запись",
+      path: "records",
       id: 3,
+    },
+    {
+      heading: "Контакты",
+      path: "/contacts",
+      id: 4,
     },
   ];
   return (
